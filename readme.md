@@ -29,7 +29,7 @@
 ## Git Stages
 - [ ] tracking
     - a way for us to decide which files git will track in its repository
-- [ ] staging
+- [ ] staging/adding
     - a way for us to decide what will become a commit
 - [ ] committing
 
@@ -79,3 +79,10 @@ Git allows you to create branches or alternate timelines. They allow you to crea
 - it should say 'switched to a new branch 'name of your branch''
 - this change is now exclusively on develop branch
 - you can see it by running `git checkout main` or `git checkout develop`.
+
+## Merging
+What if we want to bring the changes from one branch to another? We can do that! This is done only once your code is in full working order and has completely satisfied testing requirements.
+
+- you want to do this from the branch you want to merge to
+- check which branch you're in using `git branch`
+- checkout to the branch you want to merge to using `git checkout <name of branch>`

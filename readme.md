@@ -65,3 +65,17 @@
 - in order to push your code, run `git push origin <name of branch>` (ex: `git push origin main`)
 
 
+## Branches
+Git allows you to create branches or alternate timelines. They allow you to create an exact 'Copy' of another branch. This way you can tinker with the code without affecting the original code. Great for building features without 'butting heads' with other developers on the project.
+
+
+- `git branch` to check which branch you're in
+- to create a new branch:
+    - `git branch <name of your branch>`
+    - then you have to go to this branch using `git checkout <name of your branch>`
+> [!TIP}]
+> two in one! create a new branch and checkout all at once by using: 
+> `git checkout -b <name of your branch>` (ex: `git checkout -b develop`)
+- it should say 'switched to a new branch 'name of your branch''
+- this change is now exclusively on develop branch
+- you can see it by running `git checkout main` or `git checkout develop`.
